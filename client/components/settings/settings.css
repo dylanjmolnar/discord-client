@@ -1,0 +1,16 @@
+li {
+    list-style: none;
+    width: 30;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    font-size: 25px;
+}
+ul {
+    columns: 4;
+}
+#verification {
+    columns: 3;
+}
+#veriLogging {
+    columns: 4;
+}
