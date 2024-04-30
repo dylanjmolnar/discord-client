@@ -54,8 +54,8 @@ client.models = new Discord.Collection();
 
 client.login(process.env.DISCORD_TOKEN);
 
-const CLIENT_ID = "431260605132046336"
-const CLIENT_SECRET = "HRKOacxsgFRmZ01GIPNlh-jm5Ir5MYVP"
+const CLIENT_ID = import.meta.env.CLIENT_ID
+const CLIENT_SECRET = import.meta.env.CLIENT_SECRET
 const redirect = encodeURIComponent('http://localhost:5000/');
 
 app.listen(5000, () => console.log(`Server started successfully!`));

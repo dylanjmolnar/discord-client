@@ -42,8 +42,8 @@ let guilds = {};
 const Spotify = require('node-spotify-api');
  
 client.spotify = new Spotify({
-    id: "a2b630e7a0f147f0a7f8a4f0e9361aba",
-    secret: "e06c7dc3774b4962b706029d4bc606ad"
+    id: import.meta.env.SPOTIFY_ID,
+    secret: import.meta.env.SPOTIFY_SECRET
 });
 
 client.commands = new Discord.Collection();

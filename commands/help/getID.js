@@ -1,4 +1,4 @@
-const yt_api_key = `AIzaSyCeTOz20U_bO3kFDjRZAqMiO9-_oyzlYP0`;
+const yt_api_key = import.meta.env.YT_API_KEY;
 const request = require('request');
 const fetchVideoInfo = require("youtube-info");
 const getYouTubeID = require('get-youtube-id');
